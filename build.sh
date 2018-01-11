@@ -14,4 +14,5 @@ make install
 
 # install Python interface
 cd ..
-pip3 install -e .
+pip install -r requirements.txt
+pip install -e .
